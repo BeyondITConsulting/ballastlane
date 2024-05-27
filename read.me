@@ -1,0 +1,38 @@
+User Stories
+US1: 
+As a stakeholder,
+I want an application to manage employee records,
+So that I can easily create, read, update, and delete employee information.
+
+US2:
+As a stakeholder
+I want a way to register users into the application
+So I can then use the users to authenticate to the application.
+
+US3:
+As a stakeholder
+I want to be able to login to the application
+So I can have a secure way to use it.
+
+Components
+Database:
+- Employee table: Employees
+- User table: Users
+
+API:
+- Employee API: CRUD operations on employee data
+- User API: User creation, login, and authorization
+
+Data Layer:
+- Interacts with the database
+- Provides CRUD operations
+
+Business Logic Layer:
+- Contains business rules and validation
+- Independent of the data layer and API
+
+Unit Tests:
+- For all components (data access, business logic, API endpoints)
+
+Front End:
+- Swagger for API documentation and testing
